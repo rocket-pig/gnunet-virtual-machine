@@ -68,6 +68,8 @@ You can also start the vm 'headless' from command line so you dont have to have 
 
 
 # [Part 2] GNUNet compile and install section:
+Its important to note here that though these instructions were found piecemeal other places (official documentation mostly) - they Are Not an exact match and the instructions I found didn't work to begin with.  For example nothing worked initially because _libtool_ is now split into two packages on Ubuntu, _libtool_ and _libtool-bin_ and the errors were less than lucid about what was wrong.  TL;DR these are _updated_ instructions that i found elsewhere and initially didn't work and I had the joy of figuring out why everything was screaming error and segfaulting and so on for days so that I could compile this.
+
 #### First we install required stuff:
 
     sudo apt install git libtool libtool-bin autoconf autopoint \
