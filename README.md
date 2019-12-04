@@ -226,3 +226,6 @@ in ~, create file .my.conf. change user/pass to yours.
 
 NOTE: where this file is looked for is determined by **/etc/gnunet.conf**
 If you followed by above instructions, there's a [datastore-mysql] section already there for your tweakage.
+
+
+## ...there is further output from me on this under the 'Wiki' tab at top of page.
